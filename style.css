@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(15, 96, 188);
+    text-align: center;
+}
+
+legend {
+    color: rgb(15, 96, 188);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
+
+.name-major {
+    
+    text-align: center;
+}
+
+input[type="text"], select {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+input[type="email"] {
+    width: 20%;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+input[type=submit] {
+    background-color: rgb(15, 96, 188);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+textarea {
+    width: 20%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 15px;
+}
